@@ -14,7 +14,7 @@ num_layers = 2
 num_classes = 28
 num_epochs = 300
 batch_size = 2048
-log = 'Adam with batch_size=2048;epoch=300'
+log = 'Adam__batch_size='+str(batch_size)+';epoch='+str(num_epochs)
 
 
 def generate(name):
